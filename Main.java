@@ -19,9 +19,9 @@ public class Main {
 		double bonus = s.calculateBonusPoints();
 		double delivery = s.deliveryCharge();
 		
-		System.out.println("Enter the customer name "+s.getCustomerName());
-		System.out.println("Enter the phone number "+s.getPhoneNumber());
-		System.out.println("Enter the street name "+s.getStreetName());
+		System.out.println("Customer name "+s.getCustomerName());
+		System.out.println("Phone number "+s.getPhoneNumber());
+		System.out.println("Street name "+s.getStreetName());
 		System.out.printf("Bonus points %.1f\n",bonus);
 		System.out.printf("Delivery charge %.1f",delivery);
 		
